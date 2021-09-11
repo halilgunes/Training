@@ -1,0 +1,11 @@
+D:\Calismalar\Albahari\ConcurrencyThreading\ThreadTraining\ThreadTraining\bin\Debug\netcoreapp3.0\ThreadTraining.exe
+D:\Calismalar\Albahari\ConcurrencyThreading\ThreadTraining\ThreadTraining\bin\Debug\netcoreapp3.0\ThreadTraining.deps.json
+D:\Calismalar\Albahari\ConcurrencyThreading\ThreadTraining\ThreadTraining\bin\Debug\netcoreapp3.0\ThreadTraining.runtimeconfig.json
+D:\Calismalar\Albahari\ConcurrencyThreading\ThreadTraining\ThreadTraining\bin\Debug\netcoreapp3.0\ThreadTraining.runtimeconfig.dev.json
+D:\Calismalar\Albahari\ConcurrencyThreading\ThreadTraining\ThreadTraining\bin\Debug\netcoreapp3.0\ThreadTraining.dll
+D:\Calismalar\Albahari\ConcurrencyThreading\ThreadTraining\ThreadTraining\bin\Debug\netcoreapp3.0\ThreadTraining.pdb
+D:\Calismalar\Albahari\ConcurrencyThreading\ThreadTraining\ThreadTraining\obj\Debug\netcoreapp3.0\ThreadTraining.csprojAssemblyReference.cache
+D:\Calismalar\Albahari\ConcurrencyThreading\ThreadTraining\ThreadTraining\obj\Debug\netcoreapp3.0\ThreadTraining.AssemblyInfoInputs.cache
+D:\Calismalar\Albahari\ConcurrencyThreading\ThreadTraining\ThreadTraining\obj\Debug\netcoreapp3.0\ThreadTraining.AssemblyInfo.cs
+D:\Calismalar\Albahari\ConcurrencyThreading\ThreadTraining\ThreadTraining\obj\Debug\netcoreapp3.0\ThreadTraining.dll
+D:\Calismalar\Albahari\ConcurrencyThreading\ThreadTraining\ThreadTraining\obj\Debug\netcoreapp3.0\ThreadTraining.pdb
