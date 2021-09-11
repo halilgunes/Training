@@ -12,7 +12,8 @@ namespace ThreadTraining {
 /// 3. TaskCompleteSource
 /// 4. async ve await
 /// 5. ContinueWith 
-/// 
+/// 6. WhenAny
+/// 7. WhenAll
 /// </summary>
     public class TaskTraining1 {
 
@@ -71,8 +72,37 @@ namespace ThreadTraining {
 
         }
 
+        public async Task<int> Delay1() { 
+            await Task.Delay(1000); 
+            return 1; 
+        }
+        public async Task<int> Delay2() {
+            await Task.Delay(1000);
+            return 2;
+        }
+        public async Task<int> Delay3() {
+            await Task.Delay(1000);
+            return 3;
+        }
 
+        /// <summary>
+        /// Bir tane taskın tamamlanması yeterli oluyor bitmesi için.
+        /// </summary>
+        public async void WhenAnyTest() {
+            Task<int> winner = await Task.WhenAny(Delay1(), Delay2(), Delay3());
+            Console.WriteLine("Done");
+            Console.WriteLine(winner.Result);
+        }
 
-
+        /// <summary>
+        /// Tüm tasklar tamamlanınca değerleri bir diziye alıyor.
+        /// </summary>
+        public async void WhenAllTest() {
+            int[] resultList = await Task.WhenAll(Delay1(), Delay2(), Delay3());
+            Console.WriteLine("Done all task");
+            for (int i = 0; i < resultList.Length; i++) {
+                Console.WriteLine(resultList[i]); 
+            }
+        }
     }
 }

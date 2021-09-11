@@ -30,6 +30,8 @@ namespace ThreadTraining {
             });
 
             t.WriteBirthDayMatchSunday(1979);
+            t.WhenAnyTest();
+            t.WhenAllTest();
             th.Join();
 
             ThreadingTraining1 tt1 = new ThreadingTraining1();
@@ -41,7 +43,7 @@ namespace ThreadTraining {
 
             tt1.SignalTest();
 
-
+            
             AsyncTraining at1 = new AsyncTraining();
             at1.FinalCountDown();
 

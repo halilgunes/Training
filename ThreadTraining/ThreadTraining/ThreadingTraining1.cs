@@ -3,6 +3,13 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading;
 namespace ThreadTraining {
+    /// <summary>
+    /// Threading ile igili aşağıdaki kavramları öğrendik;
+    ///  1. Thread
+    ///  2. Signal
+    ///      signal.WaitOne()
+    ///      signal.Set()
+    /// </summary>
     public class ThreadingTraining1 {
         /// <summary>
         /// temp değişkene almazsak eğer i'yi sıralı olarak yazmaz.
